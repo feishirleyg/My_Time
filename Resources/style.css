@@ -108,8 +108,33 @@ p.narrative{
 }
 
 .stories{
-  display:flex;
-  justify-content: space-around;
+    display:flex;
+    justify-content: space-around;
+}
+.news-bites{
+    font-size: 16px;
+    font-weight: bold;
+    display:flex;
+    flex-direction:column;
+    text-align: center;
+
 }
 
+.news-bites span{
+    background-color: WhiteSmoke;
+    font-family: Verdana;
+    font-size: 12px;
+    color: DimGray;
+    border-bottom:1px solid black;
+    padding: 10px;
+    font-weight:normal;
+    text-align:left;
+}
+
+h3{
+
+}
 /*footer*/
+footer{
+  display:flex;
+}
