@@ -9,7 +9,6 @@ header{
   height:80px;
   align-items:center;
   justify-content: space-between;
-  position:fixed;
 }
 .logo{
   padding-left: 30px;
@@ -31,4 +30,30 @@ padding:40px;
 
 a{
   color:black;
+}
+
+div{
+  border: 1px solid black;
+}
+
+.content{
+  display:flex;
+  justify-content: space-around;
+  padding-top:100px;
+}
+.column{
+    display:flex;
+    flex-direction: column;
+}
+
+.left{
+  width:630px;
+}
+
+.middle{
+  width: 300px;
+}
+
+.right{
+  width:240px;
 }
