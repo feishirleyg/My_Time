@@ -5,12 +5,34 @@ header{
     font-size: 14px;
     font-weight: bold;
     color:MediumAquamarine;
+    background-color: white;
     border-bottom: 1px solid black;
     width:100%;
     height:80px;
     align-items:center;
     justify-content: space-between;
+    position:fixed;
+    top:0;
 }
+
+header nav{
+    padding:40px;
+}
+
+nav span{
+    display:inline-block;
+    padding:10px;
+}
+
+a{
+    color:black;
+}
+
+div{
+    display:block;
+}
+
+
 .logo{
     padding-left: 30px;
     display:flex;
@@ -21,31 +43,20 @@ header{
 .logo img{
     margin-right:15px;
 }
-nav span{
-    display:inline-block;
-    padding: 10px;
-}
 
-header nav{
-    padding:40px;
-}
-
-a{
-    color:black;
-}
-
-div{
-    border: 1px solid black;
-}
                                   /*content*/
 .content{
     display:flex;
     justify-content: space-around;
-    padding-top:50px;
+    padding-top:100px;
+    width:;
+    margin:;
 }
+
 .column{
       display:flex;
       flex-direction: column;
+      margin: ;
 }
 
 .left{
@@ -59,7 +70,8 @@ div{
 .right{
     width:240px;
 }
-p{
+
+p.narrative{
     font-family: Georgia;
     font-size: 17px;
     color: black;
@@ -70,28 +82,34 @@ p{
     display:flex;
     justify-content: center;
     height:300px;
-}
-
-.image p{
+    flex-direction:column;
     font-family: Georgia;
     font-weight: bold;
     font-size: 30px;
     color: white;
-}
-.main{
-    background-image: url("Main_Story.png");
+    text-align:center;
 }
 
-.main p{
-  font-size:40px;
+.main{
+    background-image: url("Main_Story.png");
+    font-size:40px;
 }
 
 .fall{
     background-image: url("Fall_Season.png");
+
 }
 .camera{
     background-image: url("Hipster_Cameraman.png");
+
 }
 .cat{
     background-image: url("Cat_CEO.png");
 }
+
+.stories{
+  display:flex;
+  justify-content: space-around;
+}
+
+/*footer*/
