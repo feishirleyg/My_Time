@@ -1,59 +1,97 @@
+                                /*header*/
 header{
-  display: flex;
-  font-family: Verdana;
-  font-size: 14px;
-  font-weight: bold;
-  color:MediumAquamarine;
-  border-bottom: 1px solid black;
-  width:100%;
-  height:80px;
-  align-items:center;
-  justify-content: space-between;
+    display: flex;
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: bold;
+    color:MediumAquamarine;
+    border-bottom: 1px solid black;
+    width:100%;
+    height:80px;
+    align-items:center;
+    justify-content: space-between;
 }
 .logo{
-  padding-left: 30px;
-  display:flex;
-  align-items: center;
+    padding-left: 30px;
+    display:flex;
+    align-items: center;
+    flex-grow:1;
 }
 
 .logo img{
-  margin-right:15px;
+    margin-right:15px;
 }
 nav span{
-  display:inline-block;
-  padding: 10px;
+    display:inline-block;
+    padding: 10px;
 }
 
 header nav{
-padding:40px;
+    padding:40px;
 }
 
 a{
-  color:black;
+    color:black;
 }
 
 div{
-  border: 1px solid black;
+    border: 1px solid black;
 }
-
+                                  /*content*/
 .content{
-  display:flex;
-  justify-content: space-around;
-  padding-top:100px;
+    display:flex;
+    justify-content: space-around;
+    padding-top:50px;
 }
 .column{
-    display:flex;
-    flex-direction: column;
+      display:flex;
+      flex-direction: column;
 }
 
 .left{
-  width:630px;
+    width:630px;
 }
 
 .middle{
-  width: 300px;
+    width: 300px;
 }
 
 .right{
-  width:240px;
+    width:240px;
+}
+p{
+    font-family: Georgia;
+    font-size: 17px;
+    color: black;
+}
+
+                                  /*images*/
+.image{
+    display:flex;
+    justify-content: center;
+    height:300px;
+}
+
+.image p{
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+.main{
+    background-image: url("Main_Story.png");
+}
+
+.main p{
+  font-size:40px;
+}
+
+.fall{
+    background-image: url("Fall_Season.png");
+}
+.camera{
+    background-image: url("Hipster_Cameraman.png");
+}
+.cat{
+    background-image: url("Cat_CEO.png");
 }
